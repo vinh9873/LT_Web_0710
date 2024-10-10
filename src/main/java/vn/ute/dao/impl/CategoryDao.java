@@ -17,10 +17,10 @@ public class CategoryDao implements ICategoryDao {
 		EntityManager enma = JPAConfig.getEntityManager();
 		EntityTransaction trans = enma.getTransaction();
 		
-		Category cate = new Category();
-		cate.setCategoryname("Iphone");
-		cate.setImages("abc.jpg");
-		cate.setStatus(1);
+//		Category cate = new Category();
+//		cate.setCategoryname("Iphone");
+//		cate.setImages("abc.jpg");
+//		cate.setStatus(1);
 
 		try {
 
@@ -44,10 +44,10 @@ public class CategoryDao implements ICategoryDao {
 		EntityManager enma = JPAConfig.getEntityManager();
 		EntityTransaction trans = enma.getTransaction();
 		
-		Category cate = new Category();
-		cate.setCategoryname("Iphone");
-		cate.setImages("abc.jpg");
-		cate.setStatus(1);
+//		Category cate = new Category();
+//		cate.setCategoryname("Iphone");
+//		cate.setImages("abc.jpg");
+//		cate.setStatus(1);
 
 		try {
 
@@ -71,10 +71,10 @@ public class CategoryDao implements ICategoryDao {
 			EntityManager enma = JPAConfig.getEntityManager();
 			EntityTransaction trans = enma.getTransaction();
 			
-			Category cate = new Category();
-			cate.setCategoryname("Iphone");
-			cate.setImages("abc.jpg");
-			cate.setStatus(1);
+//			Category cate = new Category();
+//			cate.setCategoryname("Iphone");
+//			cate.setImages("abc.jpg");
+//			cate.setStatus(1);
 
 			try {
 
